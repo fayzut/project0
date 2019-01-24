@@ -1,11 +1,6 @@
-<!DOCTYPE html>
-<html>
-    <head>
-    	 <link rel="stylesheet" href="styles.css">
-        <title>Webpage of Ildar</title>
-    </head>
-    <body>
-        <h1>Fayzut`s site</h1>
+{% extends "simple_page.html" %}
+
+{% block body %}
         <p  id="main">The page is going to describe the way of learning web programming</p>
         <h2>About me</h2>
         <p>
@@ -15,11 +10,10 @@
         </p>
         <h2>Related pages</h2>
         <ol>
-        	<li><a href="page_1.html">Table Page - Family</a></li>
+        	<li><a href="../page_1.html">Table Page - Family</a></li>
         	<li><a href="page_2.html">Image Page - Sleeping</a></li>
         	<li>This is a line after adding the project to Desctop vertion</li>
         	<li>The project on the branch cs50/web/2018/x/projects/0</li>
         </ol>
+{% endblock  %}
 
-    </body>
-</html>

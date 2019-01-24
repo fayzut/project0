@@ -1,0 +1,28 @@
+body
+{
+	font-size: 25px;
+}
+h1{
+	text-align: center;
+}
+p
+	{
+		font-size: 24px;
+		color: green;
+	}
+td, th{
+	width: 100px;
+	border: 1px solid;
+	padding: 2px;
+}
+table{
+	border: 1px solid;
+	border-collapse: collapse;
+
+}
+#main
+	{
+		font-family: Arial;
+		font-size: 36px;
+		color : red;
+	}
